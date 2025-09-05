@@ -34,5 +34,16 @@ int main(void) {
     printf("Sorted   (merge):     ");
     print_array(a2, COUNT_OF(a2));
 
+
+    int a3[] = {5, 3, 8, 4, 2};
+
+    printf("Original (quicksort): ");
+    print_array(a3, COUNT_OF(a3));
+
+    SORT_ARRAY_SAFE(quick_sort, a3);
+
+    printf("Sorted   (quicksort): ");
+    print_array(a3, COUNT_OF(a3));
+
     return 0;
 }

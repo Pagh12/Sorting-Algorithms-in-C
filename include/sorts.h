@@ -33,6 +33,12 @@ void insertion_sort(int *arr, size_t n);
 /* Merge sort: O(n log n), stable; uses O(n) extra space (in your VLA version). */
 void merge_sort(int *arr, size_t n);
 
+void selection_sort(int *arr, size_t n);
+
+void quick_sort(int *arr, size_t n);
+
+void heap_sort(int *arr, size_t n);
+
 #ifdef __cplusplus
 } /* extern "C" */
 #endif
